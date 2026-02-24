@@ -82,7 +82,7 @@
     </div>
 
     <footer>
-        © 2025 Sample Web App | DevOps Practice Project
+        © 2026 Sample Web App | DevOps Practice Project 24 feb 2026
     </footer>
 </div>
 
