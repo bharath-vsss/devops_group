@@ -8,7 +8,7 @@ pipeline {
                     $class: "GITSCM",
                     branches: [[name: '*/master']],
                     userRemoteConfigs[[
-                        url: 'https://github.com/bharath-vsss/devops_group.git'
+                        url: 'https://github.com/bharath-vsss/devops_group.git',
                         credentialsId: 'github_token'
                     ]]
                 ])
