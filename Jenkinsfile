@@ -29,8 +29,7 @@ pipeline {
 
         stage('Deploy To Artifactory') {
             steps {
-                retry(3)
-
+                
                 // This block provides the settings.xml file from Jenkins managed files
                 configFileProvider([
                     configFile(fileId: '60e6d22d-1609-44c1-8e7b-0cd2c5c34781', variable: 'MySettings')
