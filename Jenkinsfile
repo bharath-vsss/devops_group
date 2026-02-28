@@ -9,7 +9,7 @@ pipeline {
                     branches: [[name: '*/master']],
                     userRemoteConfigs[[
                         url: 'https://github.com/bharath-vsss/devops_group.git'
-                        credentials: 'github_token'
+                        credentialsId: 'github_token'
                     ]]
                 ])
             }
