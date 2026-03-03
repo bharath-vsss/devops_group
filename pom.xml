@@ -46,12 +46,12 @@
    <distributionManagement>
         <repository>
            <id>libs-release-local</id>
-           <url>http://52.63.146.108:8081/artifactory/libs-release-local/</url>
+           <url>http://3.27.12.114:8081/artifactory/libs-release/</url>
         </repository>
 
         <snapshotRepository>
            <id>libs-snapshot-local</id> 
-           <url>http://52.63.146.108:8081/artifactory/libs-snapshot-local/</url>
+           <url>http://3.27.12.114:8081/artifactory/libs-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
